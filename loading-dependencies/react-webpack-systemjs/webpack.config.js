@@ -20,7 +20,6 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            //babelrc: false,
             presets: [
               "@babel/preset-react",
             ],
@@ -28,7 +27,8 @@ module.exports = {
               "babel-plugin-dev-expression",
               ["@babel/plugin-proposal-decorators", { legacy: true }],
               "@babel/plugin-proposal-class-properties",
-              "@babel/plugin-proposal-object-rest-spread"
+              "@babel/plugin-proposal-object-rest-spread",
+              "@babel/plugin-transform-modules-systemjs"
             ]
 
           },
