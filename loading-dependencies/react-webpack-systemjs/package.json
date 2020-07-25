@@ -1,0 +1,30 @@
+{
+  "name": "webpack-externals",
+  "scripts": {
+    "build": "webpack",
+    "bb": "babel src --out-dir dist --source-maps",
+    "start": "webpack-dev-server"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "babel-plugin-dev-expression": "^0.2.2",
+    "@babel/plugin-transform-modules-systemjs": "^7.5.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-0",
+    "babel-loader": "8.0.5",
+    "babel-preset-react-app": "^9.1.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "prettier": "^2.0.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}
