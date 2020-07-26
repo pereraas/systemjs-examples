@@ -1,25 +1,11 @@
 <!DOCTYPE html>
 <head>
-  <script type="systemjs-importmap">
-    {
-      "imports": {
-        "react": "https://unpkg.com/react@16/umd/react.production.min.js",
-        "react-dom": "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js",
-        "styled-components": "https://cdnjs.cloudflare.com/ajax/libs/styled-components/5.1.1/styled-components.min.js",
-        "react-is": "https://cdnjs.cloudflare.com/ajax/libs/react-is/16.13.1/umd/react-is.production.min.js",
-        "app": "/dist/bundle.js"
-      }
-    }
-  </script>
+  <script type="systemjs-importmap" src="/importmap.json"></script>
   <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/system.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/systemjs/dist/extras/amd.js"></script>
 </head>
 <body>
-<div id="react-root"></div>
-<!--<script type="systemjs-module" src="/dist/bundle.js"></script>-->
-<script>
-  System.import('app')
-</script>
-
+  <div id="react-root"></div>
+  <script type="systemjs-module" src="/dist/bundle.js"></script>
 </body>
 </html>
