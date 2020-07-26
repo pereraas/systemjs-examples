@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["es2017", "esnext", "dom"],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "pretty": true,
+    "strict": true,
+    "preserveSymlinks": true,
+    "skipLibCheck": true
+  }
+
+}

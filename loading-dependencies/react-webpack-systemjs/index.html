@@ -5,7 +5,9 @@
       "imports": {
         "react": "https://unpkg.com/react@16/umd/react.production.min.js",
         "react-dom": "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js",
-        "react-app": "/dist/bundle.js"
+        "styled-components": "https://cdnjs.cloudflare.com/ajax/libs/styled-components/5.1.1/styled-components.min.js",
+        "react-is": "https://cdnjs.cloudflare.com/ajax/libs/react-is/16.13.1/umd/react-is.production.min.js",
+        "app": "/dist/bundle.js"
       }
     }
   </script>
@@ -14,10 +16,10 @@
 </head>
 <body>
 <div id="react-root"></div>
-<script type="systemjs-module" src="/dist/bundle.js"></script>
-<!--<script>-->
-<!--  System.import('react-app')-->
-<!--</script>-->
+<!--<script type="systemjs-module" src="/dist/bundle.js"></script>-->
+<script>
+  System.import('app')
+</script>
 
 </body>
 </html>
