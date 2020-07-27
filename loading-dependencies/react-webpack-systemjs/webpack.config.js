@@ -51,9 +51,5 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
   },
-  externals: {
-    "styled-components": "styled-components",
-    react: "react",
-    "react-dom": "react-dom",
-  },
+  externals: ["styled-components", "react", "react-dom"]
 };

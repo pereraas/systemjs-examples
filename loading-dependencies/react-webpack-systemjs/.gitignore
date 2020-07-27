@@ -1,0 +1,40 @@
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.gdsl
+
+# VSCode
+.vscode/
+.metals/
+
+# Mac
+.DS_Store
+
+# Output folders
+dist/
+lib/
+bin/
+**/*.zip
+**/*.gz
+output/
+node_modules/
+.build
+
+# Functional tests
+webdriver/
+*Browserstack
+
+
+
+
+
