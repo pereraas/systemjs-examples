@@ -1,0 +1,9 @@
+.component-inner {
+  color: white;
+  background-color: coral;
+}
+
+.component-outer {
+  color: white;
+  background-color: orange;
+}
