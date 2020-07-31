@@ -10,7 +10,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
     libraryTarget: "system",
-    publicPath: "/dist",
+    //publicPath: "/dist",
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
@@ -37,7 +37,7 @@ module.exports = {
           },
         },
       },
-      { parser: { system: false } },
+      { test: /\.css$/, use: [ 'style-loader', 'css-loader' ] },
     ],
   },
   plugins: [
@@ -50,6 +50,7 @@ module.exports = {
   ],
   devServer: {
     historyApiFallback: true,
+    port: 9090
   },
   externals: ["styled-components", "react", "react-dom"]
 };
